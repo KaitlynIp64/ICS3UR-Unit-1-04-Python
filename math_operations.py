@@ -2,19 +2,17 @@
 
 # Created by: Kaitlyn Ip
 # Created on: Sep 2022
-# This program does basic math
+# This program calculates the area and perimeter of a rectangle
 
 
 def main():
-    # this function does basic math
+    # this function calculates the area and perimeter
 
-    print(8 + 3)
-    print("9-5={}".format(9 - 5))
-    print("6/2={}".format(6 / 2))
-    print("7+7/2={}".format(7 + 7 / 2))
-    print("1+3*2={}".format(1 + 3 * 2))
-    print("9+2^4={}".format(9 + 2 ^ 4))  # Bitwise Operators
-    print("6+8³={}".format(6 + 8 ** 3))  # exponent
+    print("If a rectangle has the dimensions: ")
+    print("5cm x 3cm")
+    print("")
+    print("Area is {}cm².".format(3 * 5))
+    print("Perimeter is {}cm.".format(2 * (3 + 5)))
 
 
 if __name__ == "__main__":
